@@ -7,7 +7,7 @@ const app=express();
 const server=http.createServer(app);
 const io=new Server(server,{
     cors:{
-        origin:"https://letschat-uusa.onrender.com",
+        origin:"https://lets-chat-h87o.onrender.com/",
         methods:["GET","POST"],
     },
 });
